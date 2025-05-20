@@ -1,0 +1,133 @@
+.navbarHide {
+    display: none;
+}
+
+.footerHide {
+    display: none;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%; /* Ensures the image spans the entire carousel width */
+    height: 60vh; /* Default height for the carousel item on mobile */
+  }
+
+  @media (min-width: 992px) {
+    .carousel-item img {
+      height: 80vh; /* Larger height on desktop */
+    }
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    transform: translateY(-50%);
+    color: white;
+  }
+
+   .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+
+
+    /* my application */
+    /* General container styling */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#allContent {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left side content card */
+.content-card {
+  padding-right: 20px;
+}
+
+.content-card h3 {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.content-card strong {
+  font-weight: bold;
+}
+
+/* Right side image card */
+.image-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+.resume-img {
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  object-fit: contain;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .jobCardContent{
+    text-align: center;
+  }
+}
+
+/* profile */
+
+.profileCard{
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+@media (max-width: 500px) {
+  .profileCard{
+    width: 18rem !important;
+  }
+  .profileEditBtn{
+    font-size: 10px !important;
+    padding: 10px !important;
+  }
+
+  .profileImg{
+    width: 70% !important;
+    border-radius: 50% !important;
+  
+  }
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #3a5a40;
+    min-height: 100vh;
+}
+
+.registerContainer {
+    background-color: white;
+    padding: 1rem 5rem 1rem 5rem;
+    border-radius: 20px;
+    margin: 8px 0;
+}
+
+.registerLogo{
+    width: 40%;
+}
+
+@media (min-width: 768px) {
+    .registerContainer {
+        margin: 20px 0;
+    }
+}
+

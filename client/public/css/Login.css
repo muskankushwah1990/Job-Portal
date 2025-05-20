@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #3a5a40;
+    min-height: 100vh;
+}
+
+.loginContainer {
+    background-color: white;
+    padding: 5rem;
+    border-radius: 20px;
+    margin: 3rem 0;
+    
+}
+
+.loginHeading{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2rem 0;
+}
+
+.loginLogo{
+    width: 30%;
+    
+}
+
+
